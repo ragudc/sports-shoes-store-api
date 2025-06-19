@@ -9,7 +9,12 @@ app.use(express.json());
 app.use('/products', productsRouter);
 app.use('/cart',     cartRouter);
 
-app.get('/', (_, res) => res.send('Sports Shoes API, OK'));
+// ---------- Simple health-check route ---------------
+app.get('/api', (_, res) => res.send('Sports Shoes API - OK'));
+
+// (Optional) root path → redirect to /api
+app.get('/', (_, res) => res.redirect('/api'));
+
 
 module.exports = app;               // <-- imprescindible para Vercel
 
