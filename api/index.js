@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 
 //Rutas sin duplicar /api —Vercel ya las servirá bajo /api
-app.use('/products', productsRouter);
-app.use('/cart',     cartRouter);
+app.use('/api/products', productsRouter);
+app.use('/api/cart',     cartRouter);
 
 // ---------- Simple health-check route ---------------
 app.get('/api', (_, res) => res.send('Sports Shoes API - OK'));
