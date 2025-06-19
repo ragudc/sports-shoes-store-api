@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Nike Air Zoom Pegasus 39",
+    "brand": "Nike",
+    "SKU": "NK-AZP-39",
+    "sizes": [8, 9, 10, 11, 12],
+    "color": "Black/White",
+    "fullPrice": 120.00,
+    "discountedPrice": 100.00,
+    "images": [
+      "https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg",
+      "https://images.pexels.com/photos/1143503/pexels-photo-1143503.jpeg"
+    ],
+    "category": "Running"
+  },
+  {
+    "id": 2,
+    "title": "Adidas UltraBoost 21",
+    "brand": "Adidas",
+    "SKU": "AD-UB21",
+    "sizes": [7, 8, 9, 10, 11],
+    "color": "White/Multicolor",
+    "fullPrice": 180.00,
+    "discountedPrice": 150.00,
+    "images": [
+      "https://images.pexels.com/photos/1143503/pexels-photo-1143503.jpeg",
+      "https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg"
+    ],
+    "category": "Running"
+  },
+  {
+    "id": 3,
+    "title": "Nike Air Jordan 1 Mid",
+    "brand": "Nike",
+    "SKU": "NK-AJ1-MID",
+    "sizes": [8, 9, 10, 11],
+    "color": "White/Red",
+    "fullPrice": 110.00,
+    "discountedPrice": 90.00,
+    "images": [
+      "https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg",
+      "https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg"
+    ],
+    "category": "Basketball"
+  },
+  {
+    "id": 4,
+    "title": "Merrell Moab 2 Hiking",
+    "brand": "Merrell",
+    "SKU": "MR-MOAB2",
+    "sizes": [8, 9, 10, 11, 12],
+    "color": "Brown/Orange",
+    "fullPrice": 130.00,
+    "discountedPrice": 110.00,
+    "images": [
+      "https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg",
+      "https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg"
+    ],
+    "category": "Hiking"
+  },
+  {
+    "id": 5,
+    "title": "ASICS Gel-Nimbus 23",
+    "brand": "ASICS",
+    "SKU": "ASICS-GN23",
+    "sizes": [7, 8, 9, 10, 11],
+    "color": "Blue/Orange",
+    "fullPrice": 150.00,
+    "discountedPrice": 140.00,
+    "images": [
+      "https://images.pexels.com/photos/1522381/pexels-photo-1522381.jpeg",
+      "https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg"
+    ],
+    "category": "Running"
+  },
+  {
+    "id": 6,
+    "title": "Mizuno Morelia Sala II",
+    "brand": "Mizuno",
+    "SKU": "MZN-MS2",
+    "sizes": [8, 9, 10, 11, 12],
+    "color": "Gray/Blue",
+    "fullPrice": 120.00,
+    "discountedPrice": 100.00,
+    "images": [
+      "https://images.pexels.com/photos/32593107/pexels-photo-32593107.jpeg",
+      "https://images.pexels.com/photos/1522381/pexels-photo-1522381.jpeg"
+    ],
+    "category": "Indoor"
+  },
+  {
+    "id": 7,
+    "title": "Nike Air Max 270 React",
+    "brand": "Nike",
+    "SKU": "NK-AM270R",
+    "sizes": [8, 9, 10, 11, 12],
+    "color": "Black/Red",
+    "fullPrice": 160.00,
+    "discountedPrice": 150.00,
+    "images": [
+      "https://images.pexels.com/photos/32574007/pexels-photo-32574007.jpeg",
+      "https://images.pexels.com/photos/32593107/pexels-photo-32593107.jpeg"
+    ],
+    "category": "Running"
+  },
+  {
+    "id": 8,
+    "title": "Adidas Samba OG",
+    "brand": "Adidas",
+    "SKU": "AD-SAMBA",
+    "sizes": [7, 8, 9, 10, 11],
+    "color": "Black/White",
+    "fullPrice": 80.00,
+    "discountedPrice": 70.00,
+    "images": [
+      "https://images.pexels.com/photos/32573970/pexels-photo-32573970.jpeg",
+      "https://images.pexels.com/photos/32574007/pexels-photo-32574007.jpeg"
+    ],
+    "category": "Casual"
+  },
+  {
+    "id": 9,
+    "title": "On Cloudflyer",
+    "brand": "On Running",
+    "SKU": "ON-CF",
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "color": "Yellow/Black",
+    "fullPrice": 160.00,
+    "discountedPrice": 150.00,
+    "images": [
+      "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+      "https://images.pexels.com/photos/32593107/pexels-photo-32593107.jpeg"
+    ],
+    "category": "Running"
+  },
+  {
+    "id": 10,
+    "title": "Reebok Nano X1",
+    "brand": "Reebok",
+    "SKU": "RB-NX1",
+    "sizes": [7, 8, 9, 10, 11],
+    "color": "Pink",
+    "fullPrice": 130.00,
+    "discountedPrice": 120.00,
+    "images": [
+      "https://images.pexels.com/photos/2036998/pexels-photo-2036998.jpeg",
+      "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    ],
+    "category": "Training"
+  }
+]
