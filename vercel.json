@@ -2,16 +2,13 @@
   "version": 2,
   "functions": {
     "api/index.js": { 
-      "memory": 3009,
-      "maxDuration": 30
+     "use": "@vercel/node"
     }
   },
   "routes": [
     { 
       "src": "/api/(.*)", 
-      "dest": "/api/index.js",
-       "memory": 3009,
-      "maxDuration": 30
+      "dest": "/api/index.js"
     }
   ]
 }
