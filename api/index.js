@@ -1,23 +1,20 @@
 const express = require('express');
 const productsRouter = require('./products');
-const cartRouter = require('./cart');
+const cartRouter     = require('./cart');
 
 const app = express();
-app.use(express.json());  // parse JSON bodies
+app.use(express.json());
 
-// Mount the product and cart routes
-app.use('/api/products', productsRouter);
-app.use('/api/cart', cartRouter);
+//Rutas sin duplicar /api —Vercel ya las servirá bajo /api
+app.use('/products', productsRouter);
+app.use('/cart',     cartRouter);
 
-// A simple home route
-app.get('/', (req, res) => {
-  res.send('Welcome to Sports Shoes API');
-});
+app.get('/', (_, res) => res.send('Sports Shoes API, OK'));
 
-// Start the server locally
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
+module.exports = app;               // <-- imprescindible para Vercel
 
-module.exports = app;
+// Solo levanta el puerto si estás en desarrollo local
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => console.log(`Local API on http://localhost:${PORT}`));
+}
