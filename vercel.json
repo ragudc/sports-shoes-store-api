@@ -1,9 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/index.js": {
-      "runtime": "nodejs"
-    }
+    "api/index.js": {}
   },
   "routes": [
     { 
