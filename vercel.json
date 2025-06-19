@@ -2,20 +2,16 @@
   "version": 2,
   "functions": {
     "api/index.js": { 
-      "runtime": "nodejs20.x",
-      "maxDuration": 10,
-      "memory": 128,
-      "includeFiles": [
-        "api/data/products.json"
-      ]
+      "memory": 3009,
+      "maxDuration": 30
     }
   },
   "routes": [
     { 
       "src": "/api/(.*)", 
       "dest": "/api/index.js",
-      "maxDuration": 10,
-      "memory": 128 
+       "memory": 3009,
+      "maxDuration": 30
     }
   ]
 }
