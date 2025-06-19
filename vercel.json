@@ -1,7 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "api/index.js": { "use": "@vercel/node" }
+    "api/index.js": { 
+      "runtime": "nodejs20.x",
+      "maxDuration": 10,
+      "memory": 128,
+      "includeFiles": [
+        "api/data/products.json"
+      ]
+    }
   },
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
