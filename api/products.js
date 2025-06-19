@@ -1,11 +1,10 @@
-// api/products.js
 const express = require('express');
 const router = express.Router();
 const products = require('./data/products.json');
 
 // GET /api/products?search=...
 router.get('/', (req, res) => {
-  const search = req.query.search;
+  const search = req.query.search || req.query.ft;
   if (search) {
     const term = search.toLowerCase();
     const results = products.filter(p =>
